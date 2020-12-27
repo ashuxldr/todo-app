@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+body {
+    background-color: #545b62;
+
+}
+
+.container {
+border-radius: 0px;
+    border: 30px solid lightcyan;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.container h1 {
+  text-align: center;
+  color: #ffffff;
+  font-family: "Bungee", cursive;
+  font-size: 4.5rem;
+}
+.container h5 {
+  color: #fff;
+  font-family: 'Bungee', cursive;
+}
+input {
+    box-sizing: border-box;
+    margin: 10px 8rem;
+    padding: 10px 0px;
+    width: 70%;
+}
+
+input::placeholder {
+  color: #d3d3d3;
+}
+
+.btn{
+     border: 3px solid;
+    border-radius: 0rem;
+    font-weight: bold;
+}
+.btn:hover{
+border-radius:5rem ;
+}
+
+.todo-list .item{
+    margin: 10px;
+    padding: 20px;
+box-shadow: 0px 0px 20px -5px #0062cc;
+}
